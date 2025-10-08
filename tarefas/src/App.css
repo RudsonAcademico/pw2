@@ -7,11 +7,16 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh; /* Faz o app ocupar toda altura da tela */
+    
 }
+
 
 .main-content {
     display: flex;
+    flex-direction: column;
     flex: 1; /* Preenche o espaço entre header e footer */
+    justify-content: center;
+    align-items: center;
 }
 
 .content-area {
