@@ -8,20 +8,20 @@ function TaskForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!title.trim()) return;
-    addTask(title.trim());
-    setTitle('');
+    if (!title.trim()) return
+    addTask(title.trim())
+    setTitle('')
   };
 
   return (
     <form className="task-form" onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Adicionar nova tarefa..."
+        placeholder="O que precisa ser feito?"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
-      <button type="submit">Adicionar</button>
+      <button type="submit">Adicionar tarefa</button>
     </form>
   );
 }

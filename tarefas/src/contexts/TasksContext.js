@@ -4,8 +4,8 @@ export const TasksContext = createContext();
 
 export function TasksProvider({ children }) {
   const [tasks, setTasks] = useState([
-    { id: 1, title: 'Criar repositório', completed: false },
-    { id: 2, title: 'Implementar Context API', completed: false },
+    { id: 1, title: 'Reunião rápida com o time', completed: false },
+    { id: 2, title: 'Revisar pull request', completed: false },
   ]);
 
   const addTask = (title) => {

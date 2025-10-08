@@ -7,7 +7,7 @@ function TaskList() {
   const { tasks, areAllCompleted } = useContext(TasksContext);
 
   if (!tasks.length) {
-    return <p className="empty">Nenhuma tarefa cadastrada. Adicione uma acima.</p>;
+    return <p className="empty">Uau — sem tarefas por enquanto. Que tal adicionar uma?</p>
   }
 
   return (
@@ -17,7 +17,7 @@ function TaskList() {
           <TaskItem key={t.id} task={t} />
         ))}
       </ul>
-      {areAllCompleted && <div className="all-done">Parabéns! Todas as tarefas foram concluídas 🎉</div>}
+      {areAllCompleted && <div className="all-done">Tudo pronto! Boa trabalho — hora de comemorar 🎉</div>}
     </section>
   );
 }

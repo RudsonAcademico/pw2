@@ -5,15 +5,18 @@
   padding: 8px;
   border-bottom: 1px solid #eee;
 }
+
 .task-item.completed span {
   text-decoration: line-through;
   color: #888;
 }
+
 .task-item label {
   display: flex;
   align-items: center;
   gap: 8px;
 }
+
 .remove-btn {
   background: transparent;
   border: 0;

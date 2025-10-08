@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
     return (
         <footer className="footer">
-            <p>© 2025 Lista de Tarefas. Todos os direitos reservados.</p>
+            <p>Feito com ☕ e código — mantenha o ritmo! © 2025</p>
         </footer>
     );
 }

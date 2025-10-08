@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
     return (
         <header className="header">
-            <h1>Lista de Tarefas</h1>
+            <h1>Suas tarefas — vamos nessa?</h1>
         </header>
     );
 }
