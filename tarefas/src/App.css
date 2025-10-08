@@ -18,9 +18,10 @@ body {
     flex: 1; /* Área central ocupa todo espaço restante */
     padding: 20px;
     display: flex;
-    flex-wrap: wrap; /* Permite os cards quebrarem linha */
-    gap: 16px;       /* Espaçamento entre os cards */
-    justify-content: center; /* Centraliza os cards horizontalmente */
+    flex-direction: column;
+    gap: 16px;       /* Espaçamento entre elementos */
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 
